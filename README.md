@@ -14,7 +14,7 @@ Smart Goal Planner is a React application designed to help users set, track, and
 smart-goal-planner/
 ├── public/
 │   ├── index.html        # Main HTML document
-│   └── favicon.ico       # Favicon for the application
+│   
 ├── src/
 │   ├── components/       # React components for the application
 │   │   ├── GoalList.js
@@ -35,7 +35,7 @@ smart-goal-planner/
 ## Installation
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/smart-goal-planner.git
+   git clone https://github.com/Donaldson17/smart-goal-planner2.git
    ```
 2. Navigate to the project directory:
    ```
