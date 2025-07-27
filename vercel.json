@@ -5,15 +5,19 @@
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "build",
-        "nodeVersion": "16.x"
+        "distDir": "build"
       }
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/"
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
+    },
+    {
+      "src": "/(.*)", 
+      "dest": "/index.html",
+      "status": 200
     }
   ]
 }
